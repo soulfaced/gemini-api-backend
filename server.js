@@ -9,7 +9,7 @@ const port = 3000;
 
 // Enable CORS for all origins or specify particular origins
 app.use(cors({
-    origin: 'http://localhost:3001',  // Allow requests from this origin
+    origin: '*',  // Allow requests from this origin
     methods: ['GET', 'POST'],  // Specify allowed methods
     credentials: true
 }));
